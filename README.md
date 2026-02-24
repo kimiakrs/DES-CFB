@@ -34,7 +34,7 @@ Install required Python library:
 
 ```bash
 pip install pycryptodome
-
+```
 ---
 
 ## Phase1: DES Encryption (CFB Mode)
@@ -53,7 +53,7 @@ pip install pycryptodome
 4. Configure DES in CFB Mode:
 
 
-```
+```python
 cipher = DES.new(key, DES.MODE_CFB, iv=iv, segment_size=8)
 
 ```
@@ -131,16 +131,16 @@ The project compares:
 ---
 
 ## Project Structure 
-
+```
 DES-CFB/
 │
 ├── Task4-CFB-enc.py
 ├── Task4-CFB-dec.py
 ├── Task4-CFB-openssl.py
 ├── Report-Task4.pdf
+```
 
-
-The complete step-by-step implementation, execution workflow, screenshots, and comparative analysis are documented in the full project report [Report-Task4.pdf](/Report-Task4.pdf):
+**The complete step-by-step implementation, execution workflow, screenshots, and comparative analysis are documented in the full project report [Report-Task4.pdf](/Report-Task4.pdf)**
 
 ---
 
@@ -163,5 +163,7 @@ The complete step-by-step implementation, execution workflow, screenshots, and c
 
 ---
 
-MIT License
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
