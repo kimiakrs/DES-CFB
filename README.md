@@ -4,6 +4,29 @@ This project presents a complete implementation of the Data Encryption Standard 
 
 The study demonstrates encryption, decryption, verification, and performance comparison between a custom Python-based implementation and OpenSSL’s optimized DES-CFB.
 
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![PyCryptodome](https://img.shields.io/badge/Library-PyCryptodome-green.svg)](https://pycryptodome.readthedocs.io/)
+[![OpenSSL](https://img.shields.io/badge/OpenSSL-v3.x-lightgrey.svg)](https://www.openssl.org/)
+[![DES](https://img.shields.io/badge/Algorithm-DES-red.svg)](https://en.wikipedia.org/wiki/Data_Encryption_Standard)
+[![CFB Mode](https://img.shields.io/badge/Mode-CFB%20Mode-purple.svg)](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_feedback_(CFB))
+[![Cryptography](https://img.shields.io/badge/Field-Cryptography-darkblue.svg)](https://en.wikipedia.org/wiki/Cryptography)
+[![Security](https://img.shields.io/badge/Focus-Security-critical.svg)](https://en.wikipedia.org/wiki/Computer_security)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+---
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Phase1: DES Encryption (PyCryptodome)](#phase1-des-encryption-cfb-mode)
+- [Phase2: DES Decryption (PyCryptodome)](#phase2-des-decryption-cfb-mode)
+- [Phase3: OpenSSL Integration](#phase3-openssl-integration)
+- [Phase4: Comparative Analysis](#phase4-comparative-analysis)
+- [Project Structure](#project-structure)
+- [Key Learning Outcomes](#key-learning-outcomes)
+- [License](#license)
+
 ---
 
 ## Project Overview
@@ -98,7 +121,7 @@ openssl enc -d -des-cfb -K <key_hex> -iv <iv_hex> -provider legacy
 
 ---
 
-## phase4: Comparative Analysis 
+## Phase4: Comparative Analysis 
 
 The project compares: 
 
