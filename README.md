@@ -200,7 +200,7 @@ Task4-CFB-Openssl.py
 
 ## Disclaimer
 
-DES is considered cryptographically weak and should not be used in modern production systems. This implementation is strictly for educational and academic purposes.
+DES is considered cryptographically weak and should not be used in modern production systems and this implementation is strictly for educational and academic purposes.
 
 ---
 
