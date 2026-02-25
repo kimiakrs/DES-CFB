@@ -165,6 +165,20 @@ DES-CFB/
 
 **The complete step-by-step implementation, execution workflow, screenshots, and comparative analysis are documented in the full project report [Report-Task4.pdf](/Report-Task4.pdf)**
 
+### Execution Workflow
+
+Run encryption:
+```python
+python3 Task4-CFB-enc.py
+```
+Run decryption:
+```python
+python3 Task4-CFB-dec.py
+```
+Run Openssl operation:
+```python
+Task4-CFB-Openssl.py
+```
 ---
 
 ## Key Learning Outcomes
