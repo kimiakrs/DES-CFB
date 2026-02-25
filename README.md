@@ -25,6 +25,7 @@ The study demonstrates encryption, decryption, verification, and performance com
 - [Phase4: Comparative Analysis](#phase4-comparative-analysis)
 - [Project Structure](#project-structure)
 - [Key Learning Outcomes](#key-learning-outcomes)
+- [Disclaimer](#disclaimer)
 - [License](#license)
 
 ---
@@ -195,8 +196,11 @@ Task4-CFB-Openssl.py
 
 * Observing performance and security trade-offs
 
+---
 
-**DES is considered cryptographically weak and should not be used in modern production systems. This implementation is strictly for educational and academic purposes.**
+## Disclaimer
+
+DES is considered cryptographically weak and should not be used in modern production systems. This implementation is strictly for educational and academic purposes.
 
 ---
 
